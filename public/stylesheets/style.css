@@ -1,0 +1,129 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+body{
+	margin:0;
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+img {
+	float: right;
+	width: 40%;
+	box-shadow: 0 15px 10px #aaa;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 5%;
+}
+
+.header-container {
+    border-bottom: 20px solid #381f0e;
+}
+
+.footer-container,
+.main aside {
+    border-top: 30px solid #381f0e;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background:#300617;
+}
+
+.header-container,
+.main aside {
+		box-shadow: 0 10px 10px #aaa;
+}
+aside {
+	height: 1050px;
+}
+
+.title {
+    color: white;
+	float: left;
+}
+
+nav {
+	float: right;
+	width: 35%;
+}
+	
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+	float: left; 
+	width: 26%;
+	margin: 0 1.5%;
+	padding: 15px 2%;
+	margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #4a0400;	 
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav li:first-child a {
+        margin-left: 0;
+    }
+nav li:last-child a {
+        margin-right: 0;
+    }
+
+.main {
+    padding: 20px 0;
+}
+.main article {
+	float: left;
+	width: 57%;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 15px;
+	float: right;
+    width: 28%;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
